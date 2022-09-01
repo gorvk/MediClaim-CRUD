@@ -1,0 +1,41 @@
+﻿@using FrontendDemo.Models
+@model Claim
+
+<h2>Edit</h2>
+<form asp-controller=Mediclaim asp-action=Edit_SubmitData>
+    <div class="field">
+                <div>
+                    <label asp-for=Id value=@Model.Id>Patient Id :</label>
+                </div>
+                <div>
+                    <input asp-for=Id type="number" />  
+                </div>
+            </div>
+            <div class="field">
+                <div>
+                    <label asp-for=PatientName >Patient Name : </label>
+                </div>
+                <div>
+                    <input asp-for=PatientName type="text" value=@Model.PatientName />
+                </div>
+            </div>
+            <div class="field">
+                <div>
+                    <lable asp-for=Age>Patient Age : </label>
+                </div>
+                <div>
+                    <input asp-for=Age type="number"  value=@Model.Age/>
+                </div>
+            </div>
+            <div class="field">
+                <div>
+                    <label asp-for=ClaimCause>Claim Cause : </label>
+                </div>
+                <div>
+                    <input asp-for=ClaimCause type="text" value=@Model.ClaimCause/>
+                </div>
+            </div>
+            <div class="field">
+                <button type="submit">Create</button>
+            </div>
+</form>

@@ -1,0 +1,24 @@
+﻿@using FrontendDemo.Models
+@model List<Claim>
+<h2>Read by Id</h2>
+<table>
+    <thead class="thead-dark bg-black text-light">
+        <tr>
+            <th scope="col">Id</th>
+            <th scope="col">Patient Name</th>
+            <th scope="col">Age</th>
+            <th scope="col">Claim Cause</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (Claim item in Model)
+        {
+            <tr>
+                <td>@item.Id</td>
+                <td>@item.PatientName</td>
+                <td>@item.Age</td>
+                <td>@item.ClaimCause</td>
+            </tr>
+        }
+    </tbody>
+</table>

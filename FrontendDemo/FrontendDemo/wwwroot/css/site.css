@@ -1,0 +1,74 @@
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+}
+
+form {
+    position: relative;
+    top: 3em;
+    text-align: left;
+    width: 30%;
+    margin: auto;
+    background: #dedede;
+    box-shadow: 2px 0px 10px grey;
+    padding: 3em;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+
+a {
+    margin-inline: 1em .5em !important;
+    padding-inline: 2em !important;
+    border-radius: 10px;
+}
+
+a:hover{
+    background:grey !important;
+    color: black !important;
+}
+
+th, td {
+    width: 10em !important;
+    padding: 1em;
+    border: 1px solid black !important;
+}
+
+table {
+    margin: auto;
+    justify-content: center;
+    top: 5em;
+    position: relative;
+    box-shadow: 5px 5px 5px grey;
+}
+
+.field {
+    width: 67%;
+    margin: auto;
+    margin-bottom: 2em;
+}
+
+h2{
+    text-align:center;
+    text-decoration:underline;
+}
+label, button{
+    font-weight: bold;
+}
+
+button {
+    border-radius: 5px;
+}
