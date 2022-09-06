@@ -34,7 +34,7 @@ Simple Mediclaim CRUD app made in ASP.NET MVC Core and .NET Web API.
 ## Screenshots
 
 - ### Home Page - Read
-<img src="./readme-files/screenshots/Login.png" width=750/>
+<img src="./readme-files/screenshots/read.png" width=750/>
 
 <br/>
 
